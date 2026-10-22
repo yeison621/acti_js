@@ -1,0 +1,218 @@
+
+/* ===== CONFIGURACIÓN GENERAL ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+    padding: 30px 20px;
+}
+
+/* ===== TÍTULOS ===== */
+h1 {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 12px;
+    margin: 20px auto 25px;
+    max-width: 1000px;
+    font-size: 28px;
+}
+
+h2 {
+    color: #1e3a8a;
+    max-width: 1000px;
+    margin: 25px auto 12px;
+    font-size: 22px;
+}
+
+/* ===== PÁRRAFOS ===== */
+p {
+    max-width: 1000px;
+    margin: 12px auto;
+}
+
+/* ===== ENLACES ===== */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1e40af;
+    text-decoration: underline;
+}
+
+/* ===== LISTA DE EJERCICIOS ===== */
+ul {
+    max-width: 1000px;
+    margin: 15px auto;
+    padding: 20px 20px 20px 45px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+li {
+    margin: 12px 0;
+    padding: 8px;
+}
+
+/* ===== FORMULARIOS ===== */
+form {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+form p {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #334155;
+}
+
+/* ===== CAMPOS DE ENTRADA ===== */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #1e293b;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* ===== BOTONES ===== */
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 20px;
+    margin: 5px 5px 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* ===== TABLAS ===== */
+table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+th {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+tbody tr:hover {
+    background-color: #dbeafe;
+}
+
+/* ===== RESULTADOS ===== */
+#resultado1,
+#resultado,
+.resultado {
+    background-color: #eff6ff;
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+/* ===== CÓDIGO Y TEXTO DESTACADO ===== */
+code {
+    background-color: #e2e8f0;
+    color: #1e3a8a;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+strong {
+    color: #1e3a8a;
+}
+
+/* ===== ADAPTACIÓN A CELULARES ===== */
+@media (max-width: 600px) {
+    body {
+        padding: 15px 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+        padding: 18px 10px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
